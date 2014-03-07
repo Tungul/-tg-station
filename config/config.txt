@@ -1,5 +1,5 @@
 ## Server name: This appears at the top of the screen in-game. In this case it will read "tgstation: station_name" where station_name is the randomly generated name of the station for the round. Remove the # infront of SERVERNAME and replace 'tgstation' with the name of your choice
-# SERVERNAME tgstation
+SERVERNAME LugStation
 
 # Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120
@@ -69,10 +69,10 @@ ALLOW_ADMIN_OOCCOLOR
 ALLOW_METADATA
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initate a mode-change start
-#ALLOW_VOTE_MODE
+ALLOW_VOTE_MODE
 
 ## min delay (deciseconds) between voting sessions (default 10 minutes)
 VOTE_DELAY 6000
@@ -93,7 +93,7 @@ NORESPAWN
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY Lugnut1206
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -124,7 +124,7 @@ GUEST_BAN
 # LOAD_JOBS_FROM_TXT
 
 ##Remove the # mark infront of this to forbid admins from possessing the singularity.
-#FORBID_SINGULO_POSSESSION
+FORBID_SINGULO_POSSESSION
 
 ## Remove the # to show a popup 'reply to' window to every non-admin that recieves an adminPM. 
 ## The intention is to make adminPMs more visible. (although I fnd popups annoying so this defaults to off)
