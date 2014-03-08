@@ -13,7 +13,8 @@ request = urllib.request.urlopen(to_parse)
 print("Parsing file.")
 
 file_data = request.read().decode('utf-8')
-file_data = file_data.replace("step_", "pixel_")
+file_data = file_data.replace("step_x", "pixel_x")
+file_data = file_data.replace("step_y", "pixel_y")
 
 print("Writing file.")
 # Store file
