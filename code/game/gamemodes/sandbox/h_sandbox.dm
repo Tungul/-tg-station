@@ -17,6 +17,9 @@ mob
 			if(sandbox)
 				sandbox.update()
 
+
+
+
 datum/hSB
 	var/owner = null
 	var/admin = 0
@@ -33,8 +36,15 @@ datum/hSB
 		/obj/item/device/uplink/hidden, /obj/item/smallDelivery, /obj/item/missile,/obj/item/projectile,
 		/obj/item/borg/sight,/obj/item/borg/overdrive,/obj/item/borg/stun,/obj/item/weapon/robot_module)
 
+
 	proc
 		update()
+
+
+
+
+
+
 			var/global/list/hrefs = list(
 					"Space Gear",
 					"Suit Up (Space Travel Gear)"		= "hsbsuit",

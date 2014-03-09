@@ -975,6 +975,15 @@
 		..()
 		reagents.add_reagent("nutriment", 6)
 
+/obj/item/weapon/reagent_containers/food/snacks/sustenancebar
+	name = "Sustenance Bar"
+	desc = "For the worker on the go!"
+	icon_state = "chocolatebarunwrapped"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 18)
+		bitesize = 2
+
 /obj/item/weapon/reagent_containers/food/snacks/spacetwinkie
 	name = "space twinkie"
 	icon_state = "space_twinkie"
