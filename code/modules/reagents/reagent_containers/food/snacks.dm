@@ -274,7 +274,14 @@
 		..()
 		reagents.add_reagent("nutriment", 3)
 		bitesize = 1
-
+/obj/item/weapon/reagent_containers/food/snacks/sustenancebar
+	name = "Sustenance Bar"
+	desc = "For the worker on the go!"
+	icon_state = "chocolatebarunwrapped"
+	New()
+		..()
+		reagents.add_reagent("nutriment", 8 )
+	bitesize = 2
 /obj/item/weapon/reagent_containers/food/snacks/cookie
 	name = "cookie"
 	desc = "COOKIE!!!"
