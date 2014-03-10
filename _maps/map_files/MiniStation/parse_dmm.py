@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ Parses maps and fixes step_ error. """
 
 import urllib.request
